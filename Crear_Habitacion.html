@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crear Habitaciones</title>
+</head>
+<body>
+    <header>
+        <center><h1> DETALLES DE LAS HABITACIONES</h1></center>
+    </header>
+    <main>
+        <form>
+            <label>Sucursal</label>
+            <select name="id_Sucursal">
+                <option value="1">Sucursal 1</option>
+                <option value="2">Sucursal 2</option>
+            </select><br/><br/>
+            <label>Tipo de habitacion</label>
+            <select name="nom_Habitacion">
+                <option value="1">Habitación estándar</option>
+                <option value="2">Habitación superior</option>
+                <option value="3">Suite junior</option>
+                <option value="4">Suite Deluxe</option>
+            </select><br/><br/>
+            <label>Tipo de cama</label>
+            <select name="nom_cama">
+                <option value="1">cama doble</option>
+                <option value="2">camas individuales</option>
+                <option value="3">cama King</option>
+                <option value="4">Suite Deluxe</option>
+            </select><br/><br/>
+            <label>Tv</label>
+            <select name="tv">
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select><br/><br/>
+            <label>Aire_acondicionado</label>
+            <select name="aire_acondicionado">
+                <option value="1">SI</option>
+                <option value="2">NO</option>
+            </select><br/><br/>
+            <label>Cantidad maxima</label>
+            <input type="number" name="deta_habit" min="1" required ></input><br/><br/>
+            <label>Estado</label>
+            <select name="estado_Habi">
+                <option value="1">Disponible</option>
+                <option value="2">Reservado</option>
+            </select><br/><br/>
+            
+            <button>Guardar</button>&nbsp;<button>Cancelar</button>
+        </form>
+    </main>
+    
+</body>
+</html>
