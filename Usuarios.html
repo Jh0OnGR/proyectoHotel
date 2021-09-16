@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adm_Usuario</title>
+</head>
+<body>
+    <header>   
+        <center><h1> ADMINISTRAR USUARIOS</h1></center>
+    </header>
+    <main>
+        <form>
+           
+            <label for="usuario">Usuario</label>
+            <input type="text" name="txtusuario" maxlength="40" required></input><br/><br/>
+            <label for="contraseña">Contraseña</label>
+            <input type="password" name="txtcontraseña" maxlength="8" required></input><br/><br/> 
+            <label for="Estado_user">Estado</label>
+            <select>
+                <option value="1">----Seleccionar----</option>
+                <option value="2">Activo</option>
+                <option value="3">Inactivo</option>
+            </select><br/><br/>
+            <button>Guardar</button>&nbsp;&nbsp;<button>Cancelar</button>
+        </form>
+        <center><h1>USUARIOS REGISTRADOS</h1></center>
+            <label for="buscar">Buscar</label>
+            <input type="search" name="txtbuscar">
+            <br/><br/>
+            <table class="tabla" border="1">
+                <tr>
+                    <th>USUARIOS</th>
+                    <th>CONTRASEÑA</th>
+                    <th>ESTADO</th>
+                </tr>
+                <tr>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>-</td>
+                </tr>
+                <tr>
+                    <td>--</td>
+                    <td>--</td>
+                    <td>--</td>
+                </tr>
+
+            </table><br/><br/>
+            <button>Eliminar</button>&nbsp;&nbsp;<button>Modificar</button>
+    </main>
+    
+
+    
+</body>
+</html>
