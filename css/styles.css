@@ -8,6 +8,7 @@
 :root {
     --main-bg-color: #1A1E20;
     --primary-color: #FF5108;
+    --sec-bg-color: #006DC6;
     --background-secondary: #F9EBDE;
     --border-radiusG: 8px;
 }
@@ -222,7 +223,7 @@
         margin-top: 0;
     }
     .navbar-nav {
-        background-color: #006DC6;
+        background-color: var(--sec-bg-color);
         opacity: .8;
     }
     .nav-item {
@@ -261,7 +262,7 @@
         padding-bottom: 1em;     
     }
     .content-nav {
-        background-color: #006DC6;
+        background-color: var(--sec-bg-color);
         margin-left: -13px;
         opacity: .8;
     }
