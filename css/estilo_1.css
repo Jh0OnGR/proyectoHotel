@@ -1,0 +1,274 @@
+.body{
+    box-shadow: none;
+ }
+ .logo_caja{ 
+     display: inline-block;
+     background-color:#ff52085d;  
+     justify-content: left; 
+ }
+ .logo{   
+     padding: 5px 0px 0px 0px;  
+     
+     
+ }
+ .logo_main{
+     width: 100%;
+ }
+ .diseño_menu ul{
+     display: flex;
+     list-style: none;
+     
+ }
+ 
+ .diseño_menu li a{
+     display: block;
+     background-color: none;
+     color: black;
+     width: 110px ;
+     height: 40px;
+     text-decoration: none;
+     text-align: center;
+     margin: 5px 15px 0px 0;
+     padding: 5px 0px 0px 0px;   
+ }
+ .titulo{
+     text-align: center;
+     margin: 20px 0 20px 0;
+     padding: 10px 0 10px 0;
+     
+ }
+ 
+ form{
+     margin: 0 auto;
+     padding: 1em;
+     border: 1px solid #d32c2c;
+     border-radius: 1em;
+ }
+ .datos{
+     justify-content: center;
+ }
+ 
+ .boton_buscar{
+     width: 86px;
+     height: 100%;
+     
+     padding: 1px 3% 1px; 
+     
+     color: white; 
+     background-color: #FF5108;
+     border-color: gray;
+     border-radius: 10px;
+ }
+ 
+ .row{  
+     margin-bottom: 10px;
+   
+ }
+ .cont_form{
+     margin: 1em;
+     padding: 1em;
+ 
+     background-color: beige;
+     position: relative;
+     
+ 
+ }
+ .cont_form:before, .cont_form:after {
+     content: '';
+     position: absolute ;
+     left: 1px;
+     top: 1px;
+     border-radius: 3%;
+     background: linear-gradient(45deg,#FF5108,#da8e1c,gray,#c26208 );
+ 
+     background-size: 400%;
+     width: calc(100% );
+     height: calc(100%);
+     z-index: -1;
+     animation: steam 20s linear infinite;
+ }
+ 
+     @keyframes steam {
+         0% {
+             background-position: 0 0;
+         }
+         50% {
+             background-position: 400% 0;
+         }
+         100% {
+             background-position: 0 0;
+         }
+     }
+ 
+     .cont_form:after {
+     filter: blur(10px);
+     }
+ 
+ 
+ .fondo{
+     justify-content: center;
+     max-width: 600px;
+     max-height : 348px;
+     position:fixed-top;
+     background-image: url("../img/hotelm.jpg");
+     
+     
+ }
+ .boton_for{
+     width: 86px;
+     height: 100%;
+     padding: 3px 3% 3px; 
+     justify-content: center;
+     color: white; 
+     background-color: #FF5108;
+     border-color: gray;
+     border-radius: 10px;
+     text-align: center;
+     
+ }
+ .pie_de_pagina{
+     display: inline-block;
+     background-color: black; 
+     justify-content: center;
+     
+ }
+ .redes{
+     margin: 10px 0 10px 10px;
+     padding: 20px 0px 0px 0px;
+ }
+ h4{
+     color: white;
+ }
+ @media (max-width: 640px){
+     .diseño_menu li a{
+         display: block;
+         background-color: none;
+         color: black;
+         width: 100px ;
+         height: 40px;
+         text-decoration: none;
+         text-align: center;
+         font-size:small;
+         margin: 5px 0px 0px 0;
+         padding: 5px 0px 0px 0px;
+     }
+     .imagen_caja{
+         display:none;
+     }
+ 
+ }
+ @media (max-width: 989px){
+     .red-s{
+         width:30px;
+         height:30px;
+     }
+     .diseño_menu{
+         font-size: smaller;
+     }
+     .imagen_caja{
+         display:none;
+     }
+     .fondo{
+         display: none;
+     }
+ }
+ 
+ /*formulario crear reservas */
+ .datos_form_caja .row{
+     justify-content: center;
+     margin-top: 15px;
+     
+ }
+ .bot{
+     margin-top: 20px;
+     padding-top: 10px;
+ }
+ .pie_de_pagina .row{
+     justify-content: center;
+   
+ }
+ 
+ 
+ 
+ 
+ .bady_carousel{
+     
+         font-family: "Roboto", sans-serif;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         height: 100vh;
+     
+ }
+ .m {
+     width: 400px;
+     height: 400px;
+     display: flex;
+     justify-content: center;
+     
+     box-shadow: 0 24px 38px 3px rgba(0, 0, 0, 0.14),
+         0 9px 46px 8px rgba(0, 0, 0, 0.12), 0 11px 15px -7px rgba(0, 0, 0, 0.2);
+ }
+ 
+ .containe img {
+     width: 100%;
+     z-index: -2;
+ }
+ 
+ button {
+     height: 10%;
+     border: none;
+     outline: none;
+     background: rgba(0, 0, 0, 0.5);
+     cursor: pointer;
+     padding: 1em;
+     display: flex;
+ }
+ 
+ button .arrow {
+     border: solid #fff;
+     border-width: 0 4px 4px 0;
+     display: inline-block;
+     padding: 10px;
+     transition: transform 0.3s ease-out;
+     outline: none;
+ }
+ 
+ #right-btn {
+     margin: auto 0 auto -2em;
+ }
+ 
+ #right-btn .arrow {
+     transform: rotate(-45deg);
+ }
+ 
+ #left-btn {
+     z-index: 0;
+     margin: auto -2em auto 0;
+ }
+ 
+ #left-btn .arrow {
+     transform: rotate(135deg);
+ }
+ .cj_im{
+     width: 100%;
+ }
+
+table{
+    width: 100%;
+}
+
+table td{
+    border-collapse:collapse;
+    background-color: #d2691e7c;
+    border: 1px solid black;
+       
+      
+} 
+table th{
+    border-collapse:collapse;
+    background-color: chocolate;
+    border: 1px solid black;
+       
+      
+}
