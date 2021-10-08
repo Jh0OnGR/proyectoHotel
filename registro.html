@@ -4,34 +4,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registro</title>
+    <title>Registro | La Palmita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;1,300;1,700&display=swap" rel="stylesheet">
+    <link href="https://file.myfontastic.com/eStkfdYmFUFyU4sM2fYSZS/icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/login.css">
+    <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="content-banner">
-            <img src="img/banner-for.jpg" alt="" width="400px" >
-            <h2 class="title_banner">Hotel (Nombre)</h2>
-            <p class="description_banner">Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia possimus iusto, porro repudiandae impedit doloremque fugiat aspernatur nostrum neque corrupti repellat dicta ullam dignissimos, fuga facilis enim, asperiores inventore aliquam.</p>
-            <a href="#" class="btnFacebook_banner">Facebook</a>
-            <a href="#" class="btnInstagram_banner">Instagram</a>
-        </div>
-        <div class="content-form">
-            <h2 class="title-form">Registrarse</h2>
-            <form action="">
-                <input type="text" placeholder="Nombre">
-                <input type="text" placeholder="Apellido"><br>
-                <input type="text" placeholder="Tp. Documento">
-                <input type="text" placeholder="N. Documento"><br>
-                <input type="text" placeholder="Email"><br>
-                <select name="" id=""><br>
-                    <option value="">Cliente</option>
-                    <option value="">Empleado</option>
-                    <option value="">Administrador</option>
-                </select><br>
-                <input type="password" placeholder="Contraseña"><br>
-                <a href="#" class="btnEntrar-form">Entrar</a>
-                <p class="information">¿Ya tienes una cuenta? <a href="#">Inicia Sesion</a></p>
-            </form>
+    <div class="container reservation">
+        <div class="row">
+            <div class="col-sm-12 title">
+                <div class="container-formP">
+                    <div class="bg-form">
+                        <h1 class="bg-title">Hotel la palmita</h1>
+                        <p class="bg-description">Visita nuestras canales de redes sociales y contactanos,  permitenos llenar de maravillosas experincias tu vida y lo mas importante, disfruta de la estadía.</p>
+                        <div class="redes-sociales">
+                        <a href="#"  class="facebook"><i class="icon-facebook"></i>Facebook</a>
+                        <a href="#" class="instagram"><i class="icon-instagram"></i>Instagram</a>
+                    </div>
+                    </div>
+                    <div class="content-form">
+                        <div class="buttons-action">
+                            <a href="login.html"><button type="button" class="btn btn-primary">Iniciar Sesion</button></a>
+                            <a href="registro.html"><button type="button" class="btn btn-secondary">Registrarse</button></a>
+                        </div>
+                        <div class="title-form">
+                            <h1 class="form-title">Registrarse</h1>
+                        </div>
+                        <div class="form">
+                            <form action="">
+                                <div class="row">
+                                    <div class="col">
+                                      <input type="text" class="form-control input" placeholder="First name" aria-label="Nombre">
+                                    </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control input" placeholder="Last name" aria-label="Apellido">
+                                    </div>
+                                  </div>
+                                  <div class="row">
+                                    <div class="col">
+                                        <select class="form-select input" aria-label="Default select example">
+                                            <option selected>Tipo de documento</option>
+                                            <option value="1">Cedula Ciudadania</option>
+                                            <option value="2">Pasaporte</option>
+                                            <option value="3">VISA</option>
+                                        </select>
+                                    </div>
+                                    <div class="col">
+                                      <input type="text" class="form-control input" placeholder="Last name" aria-label="No. Documento">
+                                    </div>
+                                  </div>
+                                  <div class="mb-3">
+                                    <input type="email" class="form-control input" id="exampleFormControlInput1" placeholder="name@example.com">
+                                  </div>
+                                  <div class="mb-3">
+                                    <select class="form-select input" aria-label="Default select example">
+                                        <option selected>Tipo de usuario</option>
+                                        <option value="1">Cliente</option>
+                                        <option value="2">Empleado</option>
+                                      </select>
+                                  </div>
+                                  <div class="mb-3">
+                                    <input type="password" class="form-control input" id="exampleInputPassword1" placeholder="Contraseña">
+                                  </div>
+                                  <div class="button">
+                                    <a href="#" class="btn-primaryP " type="submit">Registrarse</a>
+                                  </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </body>

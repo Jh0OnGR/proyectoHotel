@@ -70,6 +70,7 @@
 .form-title {
     font-weight: bold;
     margin-top: 1em;
+    text-align: center;
 }
 .buttons-action, .title-form, .form {
     width: 300px;
@@ -88,6 +89,9 @@
     background-color: var(--primary-color);
     padding: .8em;
     border-radius: var(--border-radiusG);
+}
+.input {
+    margin: .5em 0 .5em 0;
 }
 @media (max-width:770px) {
     .bg-form {
