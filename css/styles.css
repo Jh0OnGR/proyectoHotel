@@ -221,6 +221,16 @@
     .navbar {
         margin-top: 0;
     }
+    .navbar-nav {
+        background-color: #006DC6;
+        opacity: .8;
+    }
+    .nav-item {
+        padding: 1em;
+    }
+    .navbar-toggler {
+        background-color: #006DC6;
+    }
   }
 
   @media (max-width: 769px) and (min-width: 364px) {
@@ -242,5 +252,17 @@
     }
     body {
         max-width: 100%;
+    }
+    .navbar-nav {
+        padding: 1em;
+        
+    }
+    .nav-item {
+        padding-bottom: 1em;     
+    }
+    .content-nav {
+        background-color: #006DC6;
+        margin-left: -13px;
+        opacity: .8;
     }
   }
