@@ -93,6 +93,13 @@
 .input {
     margin: .5em 0 .5em 0;
 }
+.icon {
+    color: var(--primary-color);
+    font-size: 2em;
+}
+.buttons-action a {
+    text-decoration: none;
+}
 @media (max-width:770px) {
     .bg-form {
         display: none;
