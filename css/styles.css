@@ -238,7 +238,7 @@
         padding: 1em;
     }
     .navbar-toggler {
-        background-color: #006DC6;
+        background-color: var(--main-bg-color);
     }
   }
 
@@ -270,8 +270,8 @@
         padding-bottom: 1em;     
     }
     .content-nav {
-        background-color: var(--sec-bg-color);
+        background-color: var(--main-bg-color);
         margin-left: -13px;
-        opacity: .8;
+        opacity: .9;
     }
   }
