@@ -211,7 +211,7 @@
     text-decoration: none;
 }
 .icon {
-    color: var(--primary-color);
+    color: #F9EBDE;
     font-size: 2em;
 }
 .btnFloating {
